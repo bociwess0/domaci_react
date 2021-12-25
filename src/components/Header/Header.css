@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    border-bottom: 2px solid rgba(128,128,128,0.5);
+    background-color: #f1f1f1;
+    padding-left: 15px;
+}
+
+.header a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header .nav_item {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.header .nav_item:hover {
+    background-color: #d9d9d9;
+}
+
+.header a:active,
+.header a:visited,
+.header a:focus {
+    color: #000000;
+}
+
+
