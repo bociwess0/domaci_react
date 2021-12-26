@@ -1,14 +1,12 @@
 .product_list {
     display: flex;
     flex-direction: row;
+    width: 50%;
 }
+
 
 .product_list .list {
-    width: 50%;
-}
-
-.product_list .details {
-    width: 50%;
+    width: 100%;
 }
 
 .product_list .list_heading {

@@ -1,0 +1,18 @@
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.product-details .details {
+    margin: 0 auto;
+}
+
+.product-details .details img {
+    height: 500px;
+}
+
+.product-details .details {
+    font-size: 28px;
+    font-weight: 600;
+}

@@ -14,7 +14,6 @@ export default function ProductList(props) {
                     <Product key={product.id} product = {product}></Product>
                 ))}
             </div>
-            <div className='details'></div>
         </div>
     )
 }
