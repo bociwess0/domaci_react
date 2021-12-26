@@ -1,0 +1,18 @@
+.product_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.product_list .list {
+    width: 50%;
+}
+
+.product_list .details {
+    width: 50%;
+}
+
+.product_list .list_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

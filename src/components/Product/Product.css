@@ -1,0 +1,26 @@
+.product_type {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid rgba(128,128,128,0.5);
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product_type:hover {
+    transform: translate(5px ,-5px);
+    box-shadow: -5px 5px 5px rgba(128, 128, 128, 0.5);
+    background-color: rgba(235, 235, 235, 0.3);
+}
+
+.product_type .product_image {
+    height: 250px;
+}
+
+.product_type .product_image img {
+    height: 100%;
+    width: 100%;
+}

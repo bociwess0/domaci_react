@@ -8,7 +8,7 @@
     padding-left: 15px;
 }
 
-.header a {
+.header .nav_item_link {
     cursor: pointer;
     text-decoration: none;
 }
@@ -16,15 +16,16 @@
 .header .nav_item {
     cursor: pointer;
     padding: 5px;
+    padding: 15px;
 }
 
 .header .nav_item:hover {
     background-color: #d9d9d9;
 }
 
-.header a:active,
-.header a:visited,
-.header a:focus {
+.header .nav_item_link:active,
+.header .nav_item_link:visited,
+.header .nav_item_link:focus {
     color: #000000;
 }
 
