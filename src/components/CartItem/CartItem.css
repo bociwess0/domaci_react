@@ -1,0 +1,15 @@
+.cartItem {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+.cartItem p {
+    font-size: 25px;
+}
+
+.cartItem .item_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px
+}

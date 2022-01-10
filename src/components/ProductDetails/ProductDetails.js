@@ -2,21 +2,16 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../../data';
 import ProductList from '../ProductList/ProductList';
+import ProductDetailsForm from '../ProductDetailsForm/ProductDetailsForm';
 import './ProductDetails.css';
 
 export default function Product(props) {
     const {id} = useParams();
     const {products} = data;
 
-    const findProduct = (id) => {
-        for(let i = 0; i < products.length; i++){
-            if(products[i].id === +id){
-                return products[i];
-            }
-        }
-    }
 
-    const product = findProduct(id);
+
+    const product = data.findProduct(id);
 
     return (
         <div className='product-details' >
@@ -27,6 +22,7 @@ export default function Product(props) {
                 <p>Brand: {product.brand}</p>
                 <p>Model: {product.model}</p>
                 <p>Price: {product.price}$</p>
+                <ProductDetailsForm></ProductDetailsForm>
             </div>
         </div>
     )

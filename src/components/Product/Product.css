@@ -24,3 +24,17 @@
     height: 100%;
     width: 100%;
 }
+
+.product_type h2 {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+.product_type h3 {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border: none;
+}

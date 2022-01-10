@@ -42,7 +42,16 @@ const data = {
             price: 400,
             image: 'https://phone4u.rs/wp-content/uploads/2019/08/zvucnik-za-samusng-galaxy-a20-2.jpg'
         }
-    ]
+    ],
+    idCart: 0,
+    cart: [], 
+    findProduct: function(id){
+        for(let i = 0; i < this.products.length; i++){
+            if(this.products[i].id === +id){
+                return this.products[i];
+            }
+        }
+    }
 }
 
 export default data;
